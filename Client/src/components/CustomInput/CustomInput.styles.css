@@ -1,0 +1,24 @@
+input {
+	border: #eee 1px solid;
+	border-radius: 0.3rem;
+	height: 2rem;
+	display: block;
+	text-indent: 1rem;
+}
+
+input:focus {
+	outline: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+.red {
+	color: red;
+}

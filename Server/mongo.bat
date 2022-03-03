@@ -1,0 +1,1 @@
+A:/mongodb/bin/mongod.exe --dbpath="A:/PythonTest"
